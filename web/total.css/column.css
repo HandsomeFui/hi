@@ -1,0 +1,32 @@
+*{
+	margin: 0px;
+}
+#content{
+	height: 500px;
+	background: url(../images/cutBackground.jpg) no-repeat;
+}
+.content_main{
+	text-align: center;
+	padding-top: 280px;
+	height: 100px;
+}
+.content_span{
+	font-size: 35px;
+	line-height: 100px;
+	cursor: pointer;
+}
+
+.resume_main{
+	height: 300px;
+	width: 600px;
+	border: 1px solid red;
+	margin: 0px auto;
+}
+.resume_main ul li {
+	float: left;
+	width: 100px;
+}
+.resume_main ul li:nth-child(1){
+	background-color: red;
+}
+
